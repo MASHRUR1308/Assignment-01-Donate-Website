@@ -17,9 +17,22 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.btn {
+  border: none;
+  font-size: 7px;
+  padding: 5px;
+  font-weight: 500;
+  background-color: #ff5959;
+  color: #fff;
+  border-radius: 2px;
+}
+p {
+  color: #707070;
+}
 /* header css */
 header {
   display: flex;
+  margin-top: 50px;
 }
 header .header-left h2 {
   color: #121212;
@@ -29,7 +42,6 @@ header .header-left {
 }
 header .header-left p {
   font-weight: 0.5px;
-  color: #707070;
 }
 .header-left .button-div {
   display: flex;
@@ -50,4 +62,35 @@ header .header-left p {
 }
 header .header-right img {
   width: 120%;
+}
+
+/* donate today css */
+.donate-today {
+  text-align: center;
+  margin-top: 50px;
+}
+.amount-2 {
+  border: 0.5px solid #ff5959;
+  color: #ff5959 !important;
+  background-color: #ffeeee !important;
+}
+.amount button {
+  color: #707070;
+  background-color: #fafafa;
+  border-radius: 2px;
+  padding: 3px 7px;
+}
+.donate-today input {
+  border: none;
+  border-bottom: 1px solid #707070;
+  color: #707070;
+  display: inline-block;
+}
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+.donate-today input::placeholder {
+  color: #707070;
+  font-size: 5px;
+  text-align: center;
 }
