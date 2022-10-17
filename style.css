@@ -1,14 +1,14 @@
 /* common css */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   width: 80%;
   margin: auto;
 }
 button {
   border: none;
   background: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 7px;
   padding: 5px;
   font-weight: 500;
@@ -55,7 +55,7 @@ header .header-left p {
 #btn-2 {
   color: rgb(14, 13, 13) !important;
   background-color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   border-radius: 5px;
   margin-left: 10px;
@@ -193,4 +193,43 @@ input[type="text"]:focus {
 .informative-article-link .article h6 {
   font-size: x-small;
   margin-top: 0;
+}
+
+/* Get My Updates start css */
+.update-section {
+  text-align: center;
+}
+.update-section p {
+  width: 60%;
+  margin: auto;
+  font-family: "Poppins";
+  color: #707070;
+  font-size: 10px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.update-section form {
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(255, 244, 214, 1);
+}
+.update-section form input {
+  color: #707070;
+  background-color: rgba(217, 217, 217, 1);
+  border: none;
+  display: inline-block;
+  margin-right: 0;
+  margin-top: 5px;
+}
+.update-section form button {
+  border: none;
+  display: inline-block;
+  font-size: 7px;
+  margin-left: -5px;
+  margin-top: -5px;
+  font-weight: 500;
+  background-color: #ff5959;
+  color: #fff;
+  border-radius: 2px;
 }
