@@ -1,6 +1,6 @@
 /* common css */
 
-body {
+.container {
   font-family: "Inter", sans-serif;
   width: 80%;
   margin: auto;
@@ -232,4 +232,28 @@ input[type="text"]:focus {
   background-color: #ff5959;
   color: #fff;
   border-radius: 2px;
+}
+
+/* footer section css */
+
+footer {
+  width: 100%;
+  background-color: #121212;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  margin-top: 50px;
+  margin-left: -8px;
+  margin-bottom: -5pxpx;
+}
+
+footer h6 {
+  color: rgba(255, 89, 89, 1);
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Lobster", cursive;
+}
+footer p {
+  margin-top: 2px;
+  font-size: 5px;
 }
