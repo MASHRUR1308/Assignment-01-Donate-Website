@@ -164,3 +164,33 @@ input[type="text"]:focus {
 .contribute p {
   font-size: x-small;
 }
+
+/* informative article css */
+
+.informative-article {
+  text-align: center;
+  margin-top: 50px;
+}
+.informative-article h4 {
+  font-size: medium;
+}
+.informative-article p {
+  font-size: x-small;
+  font-weight: 400;
+  margin-top: 0;
+}
+.informative-article-link {
+  display: flex;
+}
+.informative-article-link .article {
+  width: 30%;
+  margin: 10px;
+}
+.informative-article-link img {
+  width: 100%;
+  border-radius: 5px;
+}
+.informative-article-link .article h6 {
+  font-size: x-small;
+  margin-top: 0;
+}
